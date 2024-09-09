@@ -43,5 +43,12 @@
         "name": "HEART DISEASE DIAGNOSTIC",
         "description": "A web application that diagnoses heart disease in an individual. <br> This is powered by the RandriaMLP engine<br><br><strong> Techno: </strong> PHP, Python3",
         "link": "https://github.com/Liantsoarandria0803/HEART-DISEASE-DIAGNOSTIC"
+    },
+
+    "project10":{
+        "name":"KAJY CARDS",
+        "description":"A strategy or card-based game, potentially inspired by classic collectible or trading card games (TCG), similar to games like Magic: The Gathering or Hearthstone. The game may involve different cards with unique attributes like attack power, health points, and special abilities.",
+        "link":"https://github.com/SMART-KAJY-AlgoGames/KAJY-CARDS"
     }
+    
 }
