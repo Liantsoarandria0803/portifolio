@@ -1,0 +1,152 @@
+/* hero.css */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #234046;;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+  }
+  
+  .content {
+    max-width: 600px;
+    color: white;
+  }
+   .mail{
+    width: 12em;
+   }
+  
+ /* hero.css */
+
+/* Typewriter animation for writing and erasing */
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 100%;
+  }
+}
+
+@keyframes blinkCursor {
+  0% {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  50% {
+    border-right-color: transparent;
+  }
+  100% {
+    border-right-color: rgba(253, 253, 253, 0.75);
+  }
+}
+
+.title {
+  display: inline-block;
+  color: rgb(255, 187, 0);
+  font-size: 2.5rem;
+  white-space: nowrap; 
+  overflow: hidden;
+  border-right: 2px solid rgba(0, 0, 0, 0.75); 
+  animation: typing 4s steps(30, end) 1s infinite alternate, blinkCursor 0.75s step-end infinite;
+  width: 0; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-bottom:4rem;
+    margin-top: 1rem;
+  }
+  
+  .mail {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #07b6a7;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .mail:hover {
+    background-color: #005bb5;
+  }
+  
+  .myimage {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  .myimage:hover{
+    box-shadow: 7px 12px 20px 0 rgba(65, 178, 253, 0.877);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .myimage {
+      width: 300px;
+      margin-top: 1.5rem;
+    }
+  
+    .title {
+      font-size: 2.5rem;
+    }
+  
+    p {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero {
+      padding: 1.5rem;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  
+    .myimage {
+      width: 250px;
+    }
+  
+    a {
+      padding: 0.7rem 1.2rem;
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero {
+      padding: 1rem;
+    }
+  
+    .title {
+      font-size: 1.8rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  
+   
+  }  

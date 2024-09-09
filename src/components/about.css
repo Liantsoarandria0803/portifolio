@@ -1,0 +1,61 @@
+#about{
+    background-color: #234046;
+    
+}
+.contentAbout{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18%;
+    background-color: #24534563;
+    border-radius: 23px;
+    padding: 10%;
+}
+.about{
+    padding-top: 3%;
+    border-radius: 23px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 34em;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+.image{
+    background-color: #00000051;
+    height: 19em;
+    width: 19em;
+    border-radius: 50%;
+    border: solid 23px rgba(255, 255, 255, 0.479);
+}
+.about:hover{
+    box-shadow: 7px 12px 20px 0 rgba(65, 178, 253, 0.877);
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.about ul{
+    display: inline;
+}
+.about h3{
+    font-size: 35px;
+}
+.about p{
+    color: rgba(255, 228, 196, 0.664);
+    opacity: 0;
+    transform: translateX(30px);
+    animation: slideInRight 1s forwards;
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+@keyframes slideInRight {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}@keyframes slideInRight {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

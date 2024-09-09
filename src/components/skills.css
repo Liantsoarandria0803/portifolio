@@ -1,0 +1,104 @@
+#skills {
+    padding: 5rem 0;
+    background-color: #234046;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 4em;
+    background-color: #00000051;
+    padding-top: 3%;
+}
+
+.skills-text h2 {
+    color: #fdfafa;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(145, 248, 234, 0.8);
+    font-size: 3rem;
+}
+
+.skills-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.skills-content h3 {
+    color: #fff;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.category {
+    flex: 1;
+    width: 20em;
+    margin-bottom: 2rem;
+}
+
+.category ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category ul li {
+   
+    background-color: transparent;
+    border: 2px solid #00ff88;
+    color: #00ff88;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    margin: 0.5rem 0.5rem 0 0;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category ul li:hover {
+    background-color: #00ff88;
+    color: #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive styles for small devices */
+@media (max-width: 768px) {
+    .skills-text h2 {
+        font-size: 2.5rem;
+    }
+    
+    .skills-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .category {
+        max-width: 100%;
+    }
+}
+
+/* For extra small devices */
+@media (max-width: 480px) {
+    .skills-text h2 {
+        font-size: 2rem;
+    }
+    
+    .category h3 {
+        font-size: 1.4rem;
+    }
+
+    .category ul li {
+        font-size: 0.9rem;
+        padding: 0.3rem 0.8rem;
+        width: 12em;
+    }
+}

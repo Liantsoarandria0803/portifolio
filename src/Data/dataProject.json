@@ -1,0 +1,47 @@
+{
+    "project1": {
+        "name": "MLP BY RANDRIA",
+        "description": "A multilayer perceptron (MLP) is a type of artificial neural network composed of multiple layers of neurons. The neurons in an MLP typically use nonlinear activation functions, allowing the network to learn complex patterns in the data. This is an ANN model I created that can classify 2 classes (0 or 1)     <br><br><strong> Techno: </strong> python",
+        "link": "https://github.com/Liantsoarandria0803/MultiLayersPerceptron"
+    },
+    "project2": {
+        "name": "JOYALESTORE",
+        "description": "A simple dynamic e-commerce website dedicated to selling clothing items <br><br><strong> Techno: </strong> HTML, CSS, JAVASCRIPT",
+        "link": "https://liantsoarandria0803.github.io/JOYA/"
+    },
+    "project3": {
+        "name": "RANDRIA'SCRIPT",
+        "description": "An open-source software that encrypts and decrypts messages using its own type of encryption (symmetric encryption) <br><br><strong> Techno: </strong> c",
+        "link": "https://github.com/Liantsoarandria0803/Randria-scrypt"
+    },
+    "project4": {
+        "name": "SLOT MACHINE",
+        "description": "A simple web application or mini online game that follows the same principle as a real-life slot machine. <br><br><strong> Techno: </strong> HTML, CSS, JAVASCRIPT",
+        "link": "https://liantsoarandria0803.github.io/MachineAsous/"
+    },
+    "project5": {
+        "name": "APP AGE CALCULATOR",
+        "description": "A simple web application that calculates the total time (Y/M/D) you have survived on Earth <br><br><strong> Techno: </strong> HTML, CSS, JAVASCRIPT",
+        "link": "https://liantsoarandria0803.github.io/AGE_CALCULATOR/"
+    },
+    "project6": {
+        "name": "BRAINFUCK INTERPRETER",
+        "description": "A simple program that interprets Brainfuck code <br><br><strong> Techno: </strong> python, c++",
+        "link": "https://github.com/Liantsoarandria0803/Brainfuck-Interpreter"
+    },
+    "project7": {
+        "name": "Group Chat App",
+        "description": "A web application dedicated to group communication <br><br><strong> Techno: </strong> HTML, CSS, JAVASCRIPT, PHP, MYSQL",
+        "link": "https://github.com/Liantsoarandria0803/GroupChatApp"
+    },
+    "project8": {
+        "name": "Samba Admin UI/UX",
+        "description": "A web interface dedicated to admins for a SAMBA server <br><br><strong> Techno: </strong> HTML, CSS, JAVASCRIPT, PHP, MYSQL",
+        "link": "https://github.com/Kimbohy/sambaWebUI"
+    },
+    "project9": {
+        "name": "HEART DISEASE DIAGNOSTIC",
+        "description": "A web application that diagnoses heart disease in an individual. <br> This is powered by the RandriaMLP engine<br><br><strong> Techno: </strong> PHP, Python3",
+        "link": "https://github.com/Liantsoarandria0803/HEART-DISEASE-DIAGNOSTIC"
+    }
+}
