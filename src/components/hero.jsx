@@ -7,6 +7,13 @@ export const Hero =()=>{
                <h1 className="title">I'm Liantsoa RANDRIA</h1>
                <p>I'm junior web developper,AI and ML enthusiast,computer scientist.Reach out if you'd like to learn more.</p>
                <a href="mailto:liantsoarandrianasimbolarivelo@gmail.com" className="mail">Contact me</a>
+               <div className="resaux">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+               </div>
             </div>
             <img src="/sariko.png" alt="myimage" className="myimage"/>
         </div>   

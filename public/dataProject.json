@@ -36,7 +36,7 @@
     },
     "project8": {
         "name": "Samba Admin UI/UX",
-        "description": "A web interface dedicated to admins for a SAMBA server <br><br><strong> Techno: </strong> HTML, CSS, JAVASCRIPT, PHP, MYSQL",
+        "description": "A web interface dedicated to admins to manage all users for a SAMBA server <br><br><strong> Techno: </strong> HTML, CSS, JAVASCRIPT, PHP, MYSQL",
         "link": "https://github.com/Kimbohy/sambaWebUI"
     },
     "project9": {
