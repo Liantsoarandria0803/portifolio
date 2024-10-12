@@ -93,7 +93,7 @@
     }
     
     .category h3 {
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
 
     .category ul li {
@@ -101,4 +101,8 @@
         padding: 0.3rem 0.8rem;
         width: 12em;
     }
+    .skills-content{
+        padding-left: 45px;
+    }
+
 }

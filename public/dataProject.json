@@ -49,6 +49,11 @@
         "name":"KAJY CARDS",
         "description":"A strategy or card-based game, potentially inspired by classic collectible or trading card games (TCG), similar to games like Magic: The Gathering or Hearthstone. The game may involve different cards with unique attributes like attack power, health points, and special abilities.",
         "link":"https://github.com/SMART-KAJY-AlgoGames/KAJY-CARDS"
+    },
+    "project11":{
+        "name":"Hanotan-e",
+        "description":"This application serves as an online forum platform where users can discuss various topics, share knowledge, ask questions, and provide answers.",
+        "link":"https://github.com/Liantsoarandria0803/Hanontan-e"
     }
     
 }
