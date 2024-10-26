@@ -16,6 +16,9 @@ export const Certification = () => {
         <div className="certification-card">
             <img src="/Liantsoa Randria - Pandas.png" alt="certification" />
         </div>
+        <div className="certification-card">
+            <img src="/Liantsoa Randria - Intro to SQL.png" alt="certification" />
+        </div>
     </div>
   </section>;
 };
