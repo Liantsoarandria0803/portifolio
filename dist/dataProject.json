@@ -36,12 +36,24 @@
     },
     "project8": {
         "name": "Samba Admin UI/UX",
-        "description": "A web interface dedicated to admins for a SAMBA server <br><br><strong> Techno: </strong> HTML, CSS, JAVASCRIPT, PHP, MYSQL",
+        "description": "A web interface dedicated to admins to manage all users for a SAMBA server <br><br><strong> Techno: </strong> HTML, CSS, JAVASCRIPT, PHP, MYSQL",
         "link": "https://github.com/Kimbohy/sambaWebUI"
     },
     "project9": {
         "name": "HEART DISEASE DIAGNOSTIC",
         "description": "A web application that diagnoses heart disease in an individual. <br> This is powered by the RandriaMLP engine<br><br><strong> Techno: </strong> PHP, Python3",
         "link": "https://github.com/Liantsoarandria0803/HEART-DISEASE-DIAGNOSTIC"
+    },
+
+    "project10":{
+        "name":"KAJY CARDS",
+        "description":"A strategy or card-based game, potentially inspired by classic collectible or trading card games (TCG), similar to games like Magic: The Gathering or Hearthstone. The game may involve different cards with unique attributes like attack power, health points, and special abilities.",
+        "link":"https://github.com/SMART-KAJY-AlgoGames/KAJY-CARDS"
+    },
+    "project11":{
+        "name":"Hanotan-e",
+        "description":"This application serves as an online forum platform where users can discuss various topics, share knowledge, ask questions, and provide answers.",
+        "link":"https://github.com/Liantsoarandria0803/Hanontan-e"
     }
+    
 }

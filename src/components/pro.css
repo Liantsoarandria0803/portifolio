@@ -62,7 +62,11 @@
 .link:hover {
     background-color: #e67e22;
 }
-
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* Responsive grid layout */
 @media (max-width: 768px) {
     .content {

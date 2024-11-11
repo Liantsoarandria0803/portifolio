@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./pro.css";
-
+import { Loading } from "./Loading";
 export const Project = () => {
   const [data, setData] = useState(null);
 
@@ -29,7 +29,9 @@ export const Project = () => {
             );
           })
         ) : (
-          'Loading...'
+          <div  className="loading">
+             <Loading />
+          </div>
         )}
       </div>
     </section>

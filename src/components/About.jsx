@@ -5,7 +5,10 @@ export const About =()=>{
     return(
         <section id="about">
             <div className="contentAbout">
-                <div className="image">
+                <div className="image2">
+                    <div className="image">
+
+                    </div>
                     <img src="/sary.png" alt="" />
                 </div>
                 <div className="about">

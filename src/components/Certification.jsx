@@ -1,24 +1,34 @@
-import React from "react";
+import React , { useState, useEffect } from "react";
 import "./certification.css";
+import { Loading } from "./Loading";
 export const Certification = () => {
+    const [data, setData] = useState(null);
+
+  useEffect(() => {
+    fetch("/dataCeritification.json")
+      .then((response) => response.json())
+      .then((jsonData) => setData(jsonData))
+      .catch((error) => console.error("Fetch error", error));
+  }, []);
+
   return <section className="certification" id="certification">
-    <h1>Certifications</h1>
-    <div className="certification-container">
-        <div className="certification-card">
-            <img src="/RANDRIANASIMBOLARIVELO20240916-74-yim38d.jpg" alt="certification" />
-        </div>
-        <div className="certification-card">
-            <img src="/RANDRIANASIMBOLARIVELO20241020-72-1e0j7vh.jpg" alt="certification" />
-        </div>
-        <div className="certification-card">
-            <img src="/Liantsoa Randria - Intro to Machine Learning.png" alt="certification" />
-        </div>
-        <div className="certification-card">
-            <img src="/Liantsoa Randria - Pandas.png" alt="certification" />
-        </div>
-        <div className="certification-card">
-            <img src="/Liantsoa Randria - Intro to SQL.png" alt="certification" />
-        </div>
-    </div>
-  </section>;
+            <h1>Certifications</h1>
+            <div className="certification-container">
+                {data ? (
+                        Object.keys(data).map((key) => {
+                            const ceritificat =  data[key];
+                            return(
+                                <div className="certification-card">
+                                    <img src={ceritificat.path} alt="certification" />
+                                </div>
+                            );
+                        })
+                    ) : (
+                        <div  className="loading">
+                            <Loading />
+                        </div>
+                    )
+                }
+            </div>
+        </section>;
 };

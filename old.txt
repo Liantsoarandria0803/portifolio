@@ -1,0 +1,15 @@
+   <div className="certification-card">
+            <img src="/RANDRIANASIMBOLARIVELO20240916-74-yim38d.jpg" alt="certification" />
+        </div>
+        <div className="certification-card">
+            <img src="/RANDRIANASIMBOLARIVELO20241020-72-1e0j7vh.jpg" alt="certification" />
+        </div>
+        <div className="certification-card">
+            <img src="/Liantsoa Randria - Intro to Machine Learning.png" alt="certification" />
+        </div>
+        <div className="certification-card">
+            <img src="/Liantsoa Randria - Pandas.png" alt="certification" />
+        </div>
+        <div className="certification-card">
+            <img src="/Liantsoa Randria - Intro to SQL.png" alt="certification" />
+        </div>
