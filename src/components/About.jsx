@@ -21,7 +21,11 @@ export const About =()=>{
                         </li>
                         <li> 
                             <h3>Students from University of Antananarivo</h3>
-                            <p>L3 in Mathematics,Computer Sciences and applied statistics (MISA)</p>
+                            <p>First year of master degree in Mathematics,Computer Sciences and applied statistics (MISA)</p>
+                        </li>
+                        <li>
+                            <h3>Project coordinator of SMART KAJY</h3>
+                            <p>Manage all activities and project in this club</p>
                         </li>
                         <li>
                             <h3>Info</h3>
