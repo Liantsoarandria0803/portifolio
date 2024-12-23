@@ -54,6 +54,16 @@
         "name":"Hanotan-e",
         "description":"This application serves as an online forum platform where users can discuss various topics, share knowledge, ask questions, and provide answers.",
         "link":"https://github.com/Liantsoarandria0803/Hanontan-e"
+    },
+    "project12":{
+        "name":"BREAST CANCER DIAGNOSTIC",
+        "description":"MAchine learning which can dectect if you have breast cancer, it's based with decision trees algorithm that I've been implemented from scratch.",
+        "link":"https://github.com/Liantsoarandria0803/Breast-Cancer-Diagnosis-"
+    },
+    "project13":{
+        "name":"TEXT SPAM",
+        "description":"A machine learning algorithm which can detect if your message is spam or not ",
+        "link":"https://github.com/Liantsoarandria0803/SpamMessage"
     }
     
 }
