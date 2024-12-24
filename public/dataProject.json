@@ -64,6 +64,11 @@
         "name":"TEXT SPAM",
         "description":"A machine learning algorithm which can detect if your message is spam or not ",
         "link":"https://github.com/Liantsoarandria0803/SpamMessage"
+    },
+    "project14":{
+        "name":"HAND SIGN LANGUAGE",
+        "description":"The HAND SIGN LANGUAGE project is a machine learning application designed to recognize hand sign language gestures using Convolutional Neural Networks (CNNs). By leveraging the Sign Language MNIST dataset, this program trains a model to classify different sign gestures into corresponding letters or numbers. The model is highly accurate and can be deployed in real-world applications to facilitate communication between sign language users and non-signers.",
+        "link":"https://github.com/Liantsoarandria0803/Sign-language-MNIST"
     }
     
 }
