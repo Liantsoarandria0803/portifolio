@@ -2,22 +2,27 @@
     "project1": {
         "name": "MLP BY RANDRIA",
         "description": "A multilayer perceptron (MLP) is a type of artificial neural network composed of multiple layers of neurons. The neurons in an MLP typically use nonlinear activation functions, allowing the network to learn complex patterns in the data. This is an ANN model I created that can classify 2 classes (0 or 1)     <br><br><strong> Techno: </strong> python",
-        "link": "https://github.com/Liantsoarandria0803/MultiLayersPerceptron"
+        "link": "https://github.com/Liantsoarandria0803/MultiLayersPerceptron",
+        "image1":"deep.png"
     },
     "project2": {
         "name": "JOYALESTORE",
         "description": "A simple dynamic e-commerce website dedicated to selling clothing items <br><br><strong> Techno: </strong> HTML, CSS, JAVASCRIPT",
-        "link": "https://liantsoarandria0803.github.io/JOYA/"
+        "link": "https://liantsoarandria0803.github.io/JOYA/",
+         "image1":"/Screenshot from 2024-12-26 09-53-48.png",
+         "image2":"/Screenshot from 2024-12-26 09-54-03.png"
     },
     "project3": {
         "name": "RANDRIA'SCRIPT",
         "description": "An open-source software that encrypts and decrypts messages using its own type of encryption (symmetric encryption) <br><br><strong> Techno: </strong> c",
-        "link": "https://github.com/Liantsoarandria0803/Randria-scrypt"
+        "link": "https://github.com/Liantsoarandria0803/Randria-scrypt",
+         "image1":"/images.jpeg"
     },
     "project4": {
         "name": "SLOT MACHINE",
         "description": "A simple web application or mini online game that follows the same principle as a real-life slot machine. <br><br><strong> Techno: </strong> HTML, CSS, JAVASCRIPT",
-        "link": "https://liantsoarandria0803.github.io/MachineAsous/"
+        "link": "https://liantsoarandria0803.github.io/MachineAsous/",
+        "image1":"/Screenshot from 2024-12-26 09-58-35.png"
     },
     "project5": {
         "name": "APP AGE CALCULATOR",
@@ -42,23 +47,27 @@
     "project9": {
         "name": "HEART DISEASE DIAGNOSTIC",
         "description": "A web application that diagnoses heart disease in an individual. <br> This is powered by the RandriaMLP engine<br><br><strong> Techno: </strong> PHP, Python3",
-        "link": "https://github.com/Liantsoarandria0803/HEART-DISEASE-DIAGNOSTIC"
+        "link": "https://github.com/Liantsoarandria0803/HEART-DISEASE-DIAGNOSTIC",
+        "image1":"/Screenshot from 2024-12-26 09-55-51.png"
     },
 
     "project10":{
         "name":"KAJY CARDS",
         "description":"A strategy or card-based game, potentially inspired by classic collectible or trading card games (TCG), similar to games like Magic: The Gathering or Hearthstone. The game may involve different cards with unique attributes like attack power, health points, and special abilities.",
-        "link":"https://github.com/SMART-KAJY-AlgoGames/KAJY-CARDS"
+        "link":"https://github.com/SMART-KAJY-AlgoGames/KAJY-CARDS",
+        "image1":"/kajy.jpg"
     },
     "project11":{
         "name":"Hanotan-e",
         "description":"This application serves as an online forum platform where users can discuss various topics, share knowledge, ask questions, and provide answers.",
-        "link":"https://github.com/Liantsoarandria0803/Hanontan-e"
+        "link":"https://github.com/Liantsoarandria0803/Hanontan-e",
+        "image1":"/Screenshot from 2024-12-26 10-05-46.png"
     },
     "project12":{
         "name":"BREAST CANCER DIAGNOSTIC",
         "description":"MAchine learning which can dectect if you have breast cancer, it's based with decision trees algorithm that I've been implemented from scratch.",
-        "link":"https://github.com/Liantsoarandria0803/Breast-Cancer-Diagnosis-"
+        "link":"https://github.com/Liantsoarandria0803/Breast-Cancer-Diagnosis-",
+        "image1":"breastC.png"
     },
     "project13":{
         "name":"TEXT SPAM",
@@ -68,7 +77,8 @@
     "project14":{
         "name":"HAND SIGN LANGUAGE",
         "description":"The HAND SIGN LANGUAGE project is a machine learning application designed to recognize hand sign language gestures using Convolutional Neural Networks (CNNs). By leveraging the Sign Language MNIST dataset, this program trains a model to classify different sign gestures into corresponding letters or numbers. The model is highly accurate and can be deployed in real-world applications to facilitate communication between sign language users and non-signers.",
-        "link":"https://github.com/Liantsoarandria0803/Sign-language-MNIST"
+        "link":"https://github.com/Liantsoarandria0803/Sign-language-MNIST",
+        "image1":"/images2.png"
     }
     
 }

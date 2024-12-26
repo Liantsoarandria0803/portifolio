@@ -29,7 +29,11 @@ export const About =()=>{
                         </li>
                         <li>
                             <h3>Info</h3>
-                            <p>21 years old , lives in Imerintsiatosika</p>
+                            <p>21 years old , lives in Antananrivo </p>
+                        </li>
+                        <li>
+                            <h3>Contact</h3>
+                            <p>+261324577976</p>
                         </li>
                     </ul>
                 </div>

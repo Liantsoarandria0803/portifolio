@@ -22,6 +22,11 @@ export const Project = () => {
               <div className="project-card" key={key}>
                 <h3 className="titrePro">{project.name}</h3>
                 <p className="descri"dangerouslySetInnerHTML={{ __html: project.description }} />
+                <div className="imagePro">
+                  {/* Dynamically render images based on the availability of keys */}
+                  {project.image1 && <img src={project.image1} alt="Project Image 1" />}
+                  {project.image2 && <img src={project.image2} alt="Project Image 2" />}
+                </div>
                 <a className="link" href={project.link} target="_blank" rel="noopener noreferrer">
                   View Project
                 </a>

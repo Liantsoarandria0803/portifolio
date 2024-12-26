@@ -19,6 +19,7 @@ export const Skills=()=>{
                                 <li>PHP</li>
                                 <li>HTML</li>
                                 <li>C++</li>
+                                <li>C</li>
                             </ul>
                         </div>
                         <div class="category">
@@ -33,9 +34,12 @@ export const Skills=()=>{
                             <h3>Stacks & Libraries</h3>
                             <ul>
                                 <li>React</li>
+                                <li>NextJs</li>
                                 <li>Django</li>
                                 <li>Scikit-Learn</li>
                                 <li>Tensorflow</li>
+                                <li>NodeJs</li>
+                                <li>NestJs</li>
                             </ul>
                         </div>
                         <div class="category">
@@ -45,6 +49,8 @@ export const Skills=()=>{
                                 <li>Github</li>
                                 <li>Gitlab</li>
                                 <li>Figma</li>
+                                <li>Mathematics</li>
+                                <li>Kaggle</li>
                             </ul>
                         </div>
                     </div>

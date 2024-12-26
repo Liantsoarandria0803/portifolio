@@ -5,10 +5,12 @@
 .contentAbout{
     display: flex;
     flex-wrap: wrap;
-    gap: 18%;
+    flex-direction: column;
+    justify-content: center;
     background-color: #24534563;
     border-radius: 23px;
     padding: 10%;
+    align-items: center;
 }
 .about{
     padding-top: 3%;
@@ -23,6 +25,7 @@
 .image2{
     height: 19em;
     width: 19em;
+    margin-bottom: 45px;
 }
 .image{
     position:absolute;
@@ -45,12 +48,16 @@
 }
 .about h3{
     font-size: 35px;
+    display: flex;
+    justify-content: center;
 }
 .about p{
     color: rgba(255, 228, 196, 0.664);
     opacity: 0;
     transform: translateX(30px);
     animation: slideInRight 1s forwards;
+    display: flex;
+    justify-content: center;
 }
 @keyframes fadeIn {
     to {
@@ -87,3 +94,27 @@
         margin-left: 10%;  
     }
 }
+@media (max-width:600px) {
+    .image2{
+        width: 77%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 7%;
+    }
+    .image2 img{
+        margin-left: 0;
+        margin-top: 12px;
+        width: 16em;
+        height: 17em;
+        position:relative;
+        z-index: 0;
+    }
+    .about{
+        margin-left: 10%;
+        width: 18em;  
+    }
+    .about h3{
+        font-size: small;
+    }
+}
+
