@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* overflow: hidden; */
 }
 
 nav {
@@ -77,6 +78,9 @@ ul li a:hover {
 
 /* Mobile styles */
 @media (max-width: 768px) {
+    *{
+        overflow-x: hidden;
+    }
     .menu {
         display: none;
         flex-direction: column;

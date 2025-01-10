@@ -79,6 +79,18 @@
         "description":"The HAND SIGN LANGUAGE project is a machine learning application designed to recognize hand sign language gestures using Convolutional Neural Networks (CNNs). By leveraging the Sign Language MNIST dataset, this program trains a model to classify different sign gestures into corresponding letters or numbers. The model is highly accurate and can be deployed in real-world applications to facilitate communication between sign language users and non-signers.",
         "link":"https://github.com/Liantsoarandria0803/Sign-language-MNIST",
         "image1":"/images2.png"
+    },
+    "project15":{
+        "name":"RAIN PREDICTION",
+        "description":"A machine learning algorithm which can be predict raining in function of historical data (Temperature,Pressure,Humidity,Winds'sVelocity,Cloud covering)",
+        "link":"https://github.com/Liantsoarandria0803/WeatherForecast",
+        "image1":"Screenshot from 2025-01-03 11-33-47.png"
+    },
+    "project16":{
+        "name":"IMAGE CLASSIFICATION",
+        "description":"This project implements a deep learning model using a Convolutional Neural Network (CNN) architecture to classify images from the CIFAR-10 dataset. The CIFAR-10 dataset is a widely used benchmark dataset in computer vision, containing 60,000 color images across 10 classes, including airplanes, automobiles, birds, cats, deer, dogs, frogs, horses, ships, and trucks.",
+        "link":"https://github.com/Liantsoarandria0803/CIFAR-10-",
+        "image1":"Screenshot from 2025-01-10 19-14-39.png"
     }
     
 }
