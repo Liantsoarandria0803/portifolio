@@ -1,76 +1,92 @@
 /* Overall section styling */
 #projects {
-    background-color: #234046;
+    background: linear-gradient(135deg, #1c1c1c, #111111); /* Dégradé de fond */
     padding: 50px 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Ombre plus douce */
 }
 
 /* Content container styling */
 .content {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    gap: 30px; /* Plus d'espace entre les cartes */
 }
 
 /* Styling for each project card */
 .project-card {
-    background-color: #f9f9f9;
-    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.95); /* Fond plus opaque */
+    border-radius: 12px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Ombre plus fine et douce */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
     text-align: center;
+    overflow: hidden; /* Empêche les éléments de déborder */
+    position: relative; /* Nécessaire pour l'animation d'ombre intérieure */
+    animation: fadeIn 0.5s ease-in-out;
 }
 
 /* Hover effect for the project card */
 .project-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Ombre plus marquée au survol */
+    background-color: rgba(255, 255, 255, 1);
 }
 
 /* Title of each project */
 .titrePro {
-    font-size: 1.8em;
+    font-size: 1.9em; /* Taille légèrement augmentée */
     margin-bottom: 15px;
-    color: #234046;
-    font-family: 'Arial', sans-serif;
+    color: #ffb100; /* Or plus lumineux */
+    font-family: 'Montserrat', sans-serif; /* Police plus moderne */
+    font-weight: 600; /* Légèrement plus audacieux */
     text-transform: uppercase;
+    letter-spacing: 2px; /* Espacement entre les lettres */
+    animation: slideInDown 0.5s ease-in-out;
 }
 
 /* Description styling */
 .descri {
-    font-size: 1em;
-    color: #333;
-    margin-bottom: 20px;
-    line-height: 1.5;
+    font-size: 1.1em;
+    color: #4a4a4a; /* Couleur plus claire et lisible */
+    margin-bottom: 25px;
+    line-height: 1.6;
 }
 
 /* Project link button */
 .link {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 12px 25px;
     background-color: #f39c12;
     color: white;
-    font-weight: bold;
+    font-weight: 600;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.2s;
+    border: 2px solid transparent;
+    font-family: 'Arial', sans-serif;
 }
 
 /* Hover effect for the link button */
 .link:hover {
     background-color: #e67e22;
+    transform: scale(1.05);
+    border-color: #e67e22;
 }
 
+/* Loading animation */
 .loading {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* Image container styling */
 .imagePro {
-    width: 64%;
+    width: 70%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -83,7 +99,8 @@
 .imagePro img {
     width: 100%;
     transition: transform 0.3s ease;
-    border-radius: 23px;
+    border-radius: 15px;
+    border: 3px solid #f39c12; /* Bordure autour de l'image */
 }
 
 /* Image hover animation */
@@ -95,8 +112,22 @@
 @keyframes fadeIn {
     from {
         opacity: 0;
+        transform: translateY(20px);
     }
     to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Keyframe animation for slide-in effect */
+@keyframes slideInDown {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
         opacity: 1;
     }
 }
@@ -115,5 +146,13 @@
     
     .descri {
         font-size: 0.9em;
+    }
+
+    .project-card {
+        padding: 15px;
+    }
+
+    .imagePro {
+        width: 80%;
     }
 }

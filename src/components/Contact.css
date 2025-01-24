@@ -1,7 +1,7 @@
 /* Contact section styling */
 #contact {
     padding: 50px 0;
-    background-color: #234046;
+    background: linear-gradient(135deg, #1c1c1c, #111111);
     color: #fff;
     text-align: center;
   }

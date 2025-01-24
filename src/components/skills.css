@@ -1,6 +1,7 @@
 #skills {
     padding: 5rem 0;
-    background-color: #234046;
+    background: linear-gradient(135deg, #1c1c1c, #111111); /* Utilisation d'un dégradé similaire */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Ajout d'une ombre pour un effet de profondeur */
 }
 
 .container {
@@ -9,18 +10,18 @@
     align-items: center;
     text-align: left;
     gap: 4em;
-    background-color: #00000051;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
     padding-top: 3%;
 }
 
 .skills-text h2 {
-    color: #fdfafa;
+    color: #ffa500; /* Couleur similaire à celle du titre dans hero */
     writing-mode: vertical-rl;
     text-orientation: upright;
     font-weight: bold;
     letter-spacing: 5px;
     margin-bottom: 2rem;
-    text-shadow: 2px 2px 4px rgba(145, 248, 234, 0.8);
+    text-shadow: 2px 2px 4px rgba(255, 165, 0, 0.8); /* Ombre de texte pour un effet lumineux */
     font-size: 3rem;
 }
 
@@ -34,7 +35,7 @@
 }
 
 .skills-content h3 {
-    color: #fff;
+    color: #fdfafa; /* Couleur de texte claire pour le contraste */
     font-size: 1.6rem;
     margin-bottom: 1rem;
     text-shadow: 2px 2px 4px rgba(10, 236, 112, 0.8);
@@ -55,8 +56,8 @@
 
 .category ul li {
     background-color: transparent;
-    border: 2px solid #00ff88;
-    color: #00ff88;
+    border: 2px solid #00ff88; /* Couleur de bordure similaire */
+    color: #00ff88; /* Couleur de texte similaire */
     display: inline-block;
     padding: 0.5rem 1rem;
     border-radius: 25px;
@@ -65,8 +66,8 @@
 }
 
 .category ul li:hover {
-    background-color: #00ff88;
-    color: #000;
+    background-color: #00ff88; /* Couleur de fond au survol */
+    color: #000; /* Couleur de texte au survol */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -101,8 +102,7 @@
         padding: 0.3rem 0.8rem;
         width: 12em;
     }
-    .skills-content{
+    .skills-content {
         padding-left: 45px;
     }
-
 }

@@ -3,34 +3,65 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* overflow: hidden; */
 }
 
+/* Navbar styles */
 nav {
-    background-color: #234046;
-    color: #fff;
+    background: linear-gradient(135deg, #1c1c1c, #111111); /* Matching hero background */
+    color: #f5f5f5; /* Light text */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
     position: relative;
-    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    font-family: 'Poppins', sans-serif;
+    z-index: 10;
 }
-.titre{
-    font-weight: bolder;
+
+.titre {
+    font-weight: 800;
+    font-size: 1.6rem;
+    letter-spacing: 1.5px;
+    color: #ffa500; /* Matching the title color in hero */
+    transition: color 0.3s ease, transform 0.3s ease;
 }
+
+.titre:hover {
+    color: #f5f5f5; /* Light text on hover */
+    transform: scale(1.05);
+}
+
 nav a {
-    color: #fff;
+    color: #d1d1d1; /* Paragraph text color */
     text-decoration: none;
-    font-size: 1.2rem;
-    font-family: 'Arial', sans-serif;
-    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.7rem 1.2rem;
     border-radius: 5px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+nav a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(135deg, #ff4500, #ff6f61); /* Matching button gradient */
+    z-index: -1;
+    transition: width 0.4s ease-in-out;
+}
+
+nav a:hover::before {
+    width: 100%;
 }
 
 nav a:hover {
-    color: #f39c12;
-    background-color: #444;
+    color: #111111; /* Matching hover background */
 }
 
 ul {
@@ -39,17 +70,7 @@ ul {
 }
 
 li {
-    margin-left: 1.5rem;
-}
-
-ul li a {
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-ul li a:hover {
-    background-color: #444;
+    margin-left: 1.8rem;
 }
 
 /* Burger menu styles */
@@ -58,14 +79,19 @@ ul li a:hover {
     flex-direction: column;
     cursor: pointer;
     font-size: 32px;
+    transition: transform 0.3s ease;
 }
 
 .burger-bar {
-    width: 25px;
+    width: 28px;
     height: 3px;
-    background-color: #fff;
+    background-color: #f5f5f5; /* Light text color */
     margin: 4px 0;
-    transition: 0.4s;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.burger:hover .burger-bar {
+    background-color: #ffa500; /* Title hover color */
 }
 
 .menu {
@@ -74,23 +100,33 @@ ul li a:hover {
 
 .menu.open {
     display: block;
+    animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Mobile styles */
 @media (max-width: 768px) {
-    *{
-        overflow-x: hidden;
-    }
     .menu {
         display: none;
         flex-direction: column;
         width: 100%;
-        background-color: #234046;
+        background: linear-gradient(135deg, #1c1c1c, #111111); /* Matching navbar background */
         position: absolute;
         top: 100%;
         left: 0;
         padding: 1rem 0;
-        box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+        z-index: 9;
     }
 
     .menu.open {
@@ -109,5 +145,14 @@ ul li a:hover {
 
     .burger {
         display: flex;
+    }
+
+    nav a {
+        padding: 0.6rem 1rem;
+        font-size: 1rem;
+    }
+
+    .titre {
+        font-size: 1.4rem;
     }
 }

@@ -1,24 +1,74 @@
 /* hero.css */
 .hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
-    background-color: #234046;;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    flex-wrap: wrap;
-  }
-  
-  .content {
-    max-width: 600px;
-    color: white;
-  }
-   .mail{
-    width: 12em;
-   }
-  
- /* hero.css */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #1c1c1c, #111111);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  flex-wrap: wrap;
+}
 
+.content {
+  max-width: 600px;
+  color: #f5f5f5;
+}
+.skills {
+  margin-top: 2rem;
+  color: #f5f5f5;
+}
+
+.skills h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #ffa500; /* Couleur similaire à celle du titre */
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills ul li {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+  color: #d1d1d1;
+  transition: background 0.3s ease;
+}
+
+.skills ul li:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.resaux {
+  margin-top: 2rem;
+}
+
+.resaux ul {
+  display: flex;
+  gap: 1rem; /* Espacement entre les icônes */
+  padding: 0;
+}
+
+.resaux ul li {
+  list-style: none;
+  transition: transform 0.3s ease;
+}
+
+.resaux ul li:hover {
+  transform: scale(1.1); /* Légère augmentation de la taille au survol */
+}
+
+.resaux a {
+  color: #f5f5f5; /* Couleur des icônes */
+  transition: color 0.3s ease;
+}
+
+.resaux a:hover {
+  color: #ffa500; /* Changement de couleur au survol */
+}
 /* Typewriter animation for writing and erasing */
 @keyframes typing {
   0% {
@@ -31,122 +81,152 @@
 
 @keyframes blinkCursor {
   0% {
-    border-right-color: rgba(255, 255, 255, 0.75);
+    border-right-color: rgba(245, 245, 245, 0.75);
   }
   50% {
     border-right-color: transparent;
   }
   100% {
-    border-right-color: rgba(253, 253, 253, 0.75);
+    border-right-color: rgba(245, 245, 245, 0.75);
   }
 }
 
 .title {
   display: inline-block;
-  color: rgb(255, 187, 0);
-  font-size: 2.5rem;
-  white-space: nowrap; 
+  color: #ffa500;
+  font-size: 3rem;
+  white-space: nowrap;
   overflow: hidden;
-  border-right: 2px solid rgba(0, 0, 0, 0.75); 
-  animation: typing 4s steps(30, end) 1s infinite alternate, blinkCursor 0.75s step-end infinite;
-  width: 0; 
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-right: 3px solid rgba(255, 255, 255, 0.75); 
+  animation: typing 4s steps(40, end) 1s infinite alternate, blinkCursor 0.75s step-end infinite;
+  width: 0;
+  font-family: 'Montserrat', sans-serif; /* Modern font style */
+  font-weight: 700; /* Bolder font */
 }
 
-  
-  p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    margin-bottom:4rem;
-    margin-top: 1rem;
+p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  font-family: 'Open Sans', sans-serif; /* Clean and readable font */
+  color: #d1d1d1;
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+}
+
+.mail {
+  display: inline-block;
+  padding: 1rem 2rem; /* Adjusted padding for a more prominent button */
+  background: linear-gradient(135deg, #ff4500, #ff6f61);
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1rem; /* Slightly larger for better visibility */
+  font-weight: 600; /* Semi-bold for emphasis */
+  border-radius: 8px; /* Softer corners */
+  transition: background 0.3s ease, transform 0.2s;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 4px 8px rgba(255, 69, 0, 0.5);
+}
+
+.mail:hover {
+  background: linear-gradient(135deg, #ff6f61, #ff4500);
+  transform: scale(1.07); /* Slightly larger on hover */
+  box-shadow: 0 6px 12px rgba(255, 69, 0, 0.7);
+}
+
+.myimage {
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.8);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.myimage:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.9);
+}
+
+/* Adding fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
   }
-  
-  .mail {
-    display: inline-block;
-    padding: 0.8rem 1.5rem;
-    background-color: #07b6a7;
-    color: #fff;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  .mail:hover {
-    background-color: #005bb5;
+}
+
+.hero, .content, .myimage {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
   }
-  
+
   .myimage {
-    width: 400px;
-    height: auto;
-    border-radius: 10px;
-    object-fit: cover;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin-top: 2rem;
   }
-  .myimage:hover{
-    box-shadow: 7px 12px 20px 0 rgba(65, 178, 253, 0.877);
+
+  .title {
+    font-size: 2.5rem;
   }
-  
-  /* Responsive Design */
-  @media (max-width: 1024px) {
-    .hero {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .myimage {
-      width: 300px;
-      margin-top: 1.5rem;
-    }
-  
-    .title {
-      font-size: 2.5rem;
-    }
-  
-    p {
-      font-size: 1.1rem;
-    }
+
+  p {
+    font-size: 1.1rem;
   }
-  
-  @media (max-width: 768px) {
-    .hero {
-      padding: 1.5rem;
-    }
-  
-    .title {
-      font-size: 2rem;
-    }
-  
-    p {
-      font-size: 1rem;
-    }
-  
-    .myimage {
-      width: 250px;
-    }
-  
-    a {
-      padding: 0.7rem 1.2rem;
-      font-size: 0.9rem;
-    }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 1.5rem;
   }
-  
-  @media (max-width: 480px) {
-    .hero {
-      padding: 1rem;
-    }
-  
-    .title {
-      font-size: 1.2rem;
-    }
-  
-    p {
-      font-size: 0.9rem;
-    }
-  
-   
-  }  
+
+  .title {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .myimage {
+    width: 250px;
+  }
+
+  .mail {
+    padding: 0.8rem 1.5rem; /* Adjusted padding for smaller screens */
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .myimage {
+    width: 200px;
+  }
+
+  .mail {
+    padding: 0.6rem 1.2rem; /* Compact button */
+    font-size: 0.9rem;
+  }
+}
