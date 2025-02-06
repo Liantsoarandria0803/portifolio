@@ -1,4 +1,28 @@
 {
+    "project20": {
+        "name": "FACIAL STRESS DETECTION",
+        "description": "This project focuses on developing a Convolutional Neural Network (CNN) to classify facial images into 'stress' and 'no stress' categories. The model is trained on a dataset of facial images and achieves an accuracy of 88.52%.",
+        "link": "https://github.com/Liantsoarandria0803/Facial-Stress-Recognition",
+        "image1": "/stress.png"
+    },
+    "project19": {
+        "name": "FAKE NEWS DETECTION",
+        "description": "Artificial intelligence based with deep learning algorithm which can detect if news is fake or real by analysing the content of the news ",
+        "link": "https://github.com/Liantsoarandria0803/Fake-News-Detection",
+        "image1": "/FakeNews.png"
+    },
+    "project18": {
+        "name": "BOOK SYSTEM RECOMMENDATION",
+        "description": "A book recommendation system is designed to assist readers in discovering books that align with their interests and preferences. These systems analyze various data points to provide personalized suggestions, enhancing the user's reading experience.",
+        "link": "https://github.com/Liantsoarandria0803/Books-system-recommendation",
+        "image1": "/book.png"
+    },
+    "project17": {
+        "name": "HEALTH MENTAL DISEASE",
+        "description": " Analyzes a dataset related to depression and builds a predictive model to classify individuals as depressed or not based on various features.",
+        "link": "https://github.com/Liantsoarandria0803/Health-mental-disease",
+        "image1": "/depr.jpg"
+    },
     "project10": {
         "name": "KAJY CARDS",
         "description": "A strategy or card-based game, potentially inspired by classic collectible or trading card games (TCG), similar to games like Magic: The Gathering or Hearthstone. The game may involve different cards with unique attributes like attack power, health points, and special abilities.",
@@ -46,6 +70,12 @@
         "link": "https://github.com/Liantsoarandria0803/WeatherForecast",
         "image1": "Screenshot from 2025-01-03 11-33-47.png"
     },
+    "project11": {
+        "name": "Hanotan-e",
+        "description": "This application serves as an online forum platform where users can discuss various topics, share knowledge, ask questions, and provide answers.",
+        "link": "https://github.com/Liantsoarandria0803/Hanontan-e",
+        "image1": "/Screenshot from 2024-12-26 10-05-46.png"
+    },
     "project2": {
         "name": "JOYALESTORE",
         "description": "A simple dynamic e-commerce website dedicated to selling clothing items <br><br><strong> Techno: </strong> HTML, CSS, JAVASCRIPT",
@@ -64,12 +94,6 @@
         "description": "An open-source software that encrypts and decrypts messages using its own type of encryption (symmetric encryption) <br><br><strong> Techno: </strong> c",
         "link": "https://github.com/Liantsoarandria0803/Randria-scrypt",
         "image1": "/images.jpeg"
-    },
-    "project11": {
-        "name": "Hanotan-e",
-        "description": "This application serves as an online forum platform where users can discuss various topics, share knowledge, ask questions, and provide answers.",
-        "link": "https://github.com/Liantsoarandria0803/Hanontan-e",
-        "image1": "/Screenshot from 2024-12-26 10-05-46.png"
     },
     "project5": {
         "name": "APP AGE CALCULATOR",
