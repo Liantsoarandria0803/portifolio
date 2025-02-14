@@ -3,7 +3,15 @@
         "name": "FACIAL STRESS DETECTION",
         "description": "This project focuses on developing a Convolutional Neural Network (CNN) to classify facial images into 'stress' and 'no stress' categories. The model is trained on a dataset of facial images and achieves an accuracy of 88.52%.",
         "link": "https://github.com/Liantsoarandria0803/Facial-Stress-Recognition",
-        "image1": "/stress.png"
+        "image1": "/mobileFacial.jpg",
+        "image2": "/desktopfacial.png"
+    },
+    "project21":
+    {
+        "name": "BIBLE VERSE FINDER",
+        "description": "A mobile application that allows users to search for Bible verses based on keywords or phrases. The application retrieves relevant verses from the Bible and displays them to the user, providing a convenient way to explore and reference scriptural passages.",
+        "link": "https://github.com/Liantsoarandria0803/Bible-verse-finder",
+        "image1": "/bible.jpg"
     },
     "project19": {
         "name": "FAKE NEWS DETECTION",
