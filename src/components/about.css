@@ -1,9 +1,17 @@
 #about {
     background: linear-gradient(135deg, #1c1c1c, #111111);
+    
     padding: 5% 0; /* Ajout d'un padding pour espacer le contenu */
+
+}
+@keyframes gradientAnimation {
+    0% { background: linear-gradient(135deg, #1c1c1c, #111111); }
+    50% { background: linear-gradient(135deg, #2a2a2a, #191919); }
+    100% { background: linear-gradient(135deg, #1c1c1c, #111111); }
 }
 
 .contentAbout {
+    animation: gradientAnimation 5s infinite alternate;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -115,12 +123,16 @@
         margin-bottom: 7%;
     }
     .image2 img {
-        width: 100%; /* Rendre l'image responsive */
+        width: 45%; /* Rendre l'image responsive */
         height: auto; /* Maintenir le ratio d'aspect */
     }
 }
 
 @media (max-width: 600px) {
+    .image2 img {
+        width: 100%; /* Rendre l'image responsive */
+        height: auto; /* Maintenir le ratio d'aspect */
+    }
     .image2 {
         width: 77%;
         margin-bottom: 7%;

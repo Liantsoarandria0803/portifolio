@@ -1,4 +1,5 @@
 /* Overall section styling */
+
 #projects {
     background: linear-gradient(135deg, #1c1c1c, #111111); /* Dégradé de fond */
     padding: 50px 0;
@@ -97,7 +98,7 @@
 }
 
 .imagePro img {
-    width: 100%;
+    width: 45%;
     transition: transform 0.3s ease;
     border-radius: 15px;
     border: 3px solid #f39c12; /* Bordure autour de l'image */

@@ -15,9 +15,11 @@ export const Skills=()=>{
                             <ul>
                                 <li>Python</li>
                                 <li>Javascript</li>
+                                <li>Typescript</li>
                                 <li>SQL</li>
                                 <li>PHP</li>
                                 <li>HTML</li>
+                                <li>Java</li>
                                 <li>C++</li>
                                 <li>C</li>
                             </ul>
@@ -34,10 +36,13 @@ export const Skills=()=>{
                             <h3>Stacks & Libraries</h3>
                             <ul>
                                 <li>React</li>
+                                <li>React Native</li>
                                 <li>NextJs</li>
                                 <li>Django</li>
                                 <li>Scikit-Learn</li>
                                 <li>Tensorflow</li>
+                                <li>Pytorch</li>
+                                <li>Prisma</li>
                                 <li>NodeJs</li>
                                 <li>NestJs</li>
                             </ul>
@@ -51,6 +56,8 @@ export const Skills=()=>{
                                 <li>Figma</li>
                                 <li>Mathematics</li>
                                 <li>Kaggle</li>
+                                <li>AnalyseSI</li>
+                                <li>Expo</li>
                             </ul>
                         </div>
                     </div>

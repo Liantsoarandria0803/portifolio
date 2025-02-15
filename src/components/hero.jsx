@@ -7,9 +7,9 @@ export const Hero = () => {
         <div className="hero">
             <div className="content">
                 <h1 className="title">I'm Liantsoa RANDRIA</h1>
-                <p>I'm a junior web developer, AI and ML enthusiast, computer scientist. Reach out if you'd like to learn more.</p>
+                <p>I'm  AI and ML enthusiast,web and mobile developper,computer scientist. Reach out if you'd like to learn more.</p>
                 <a href="mailto:liantsoarandrianasimbolarivelo@gmail.com" className="mail">Contact me</a>
-                
+
                 {/* New Skills Section */}
                 <div className="skills">
                     <h2>Skills</h2>
@@ -18,6 +18,9 @@ export const Hero = () => {
                         <li>Machine Learning</li>
                         <li>Web developpement</li>
                         <li>Mobile developpement</li>
+                        <li>Project management</li>
+                        <li>Computer Science</li>
+                        <li>Database conceptor</li>
                     </ul>
                 </div>
 
