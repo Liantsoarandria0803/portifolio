@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useForm, ValidationError } from '@formspree/react';
 import "./Contact.css";
 
 export const Contact = () => {
@@ -13,10 +14,11 @@ export const Contact = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Form submitted:", formData);
-  };
+  const [state, handleSubmit] = useForm("mzzdjgpp");
+
+  if (state.succeeded) {
+    return <p>Thanks for your message!</p>;
+  }
 
   return (
     <section id="contact">
@@ -33,6 +35,7 @@ export const Contact = () => {
               onChange={handleChange}
               required
             />
+            <ValidationError prefix="Name" field="name" errors={state.errors} />
           </div>
 
           <div className="form-group">
@@ -45,6 +48,7 @@ export const Contact = () => {
               onChange={handleChange}
               required
             />
+            <ValidationError prefix="Email" field="email" errors={state.errors} />
           </div>
 
           <div className="form-group">
@@ -57,6 +61,7 @@ export const Contact = () => {
               onChange={handleChange}
               required
             />
+            <ValidationError prefix="Subject" field="subject" errors={state.errors} />
           </div>
 
           <div className="form-group">
@@ -69,9 +74,10 @@ export const Contact = () => {
               rows="5"
               required
             ></textarea>
+            <ValidationError prefix="Message" field="message" errors={state.errors} />
           </div>
 
-          <button type="submit" className="submit-btn">
+          <button type="submit" className="submit-btn" disabled={state.submitting}>
             Send Message
           </button>
         </form>
